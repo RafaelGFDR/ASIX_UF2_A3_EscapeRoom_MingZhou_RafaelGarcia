@@ -10,6 +10,13 @@
     <script src="https://kit.fontawesome.com/7822954312.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <h1>Haz una decision.</h1>
+    <div class="row">
+        <div class="column-2">
+            <img src="../img/A1.jpg" alt="">
+            <img src="" alt="">
+        </div>
+
+    </div>
 </body>
 </html>

@@ -11,8 +11,15 @@ html{
     box-sizing: border-box;
 }
 body{
+    color: white;
     margin: 0;
     font-family: 'Press Start 2P', cursive;
+    background: 
+    linear-gradient(to bottom, #000000,#000000c7, #000000c7),
+    repeating-linear-gradient(transparent 4px 2px, black 5px 8px);
+    animation: moveBand 1s linear infinite;
+    text-decoration: none;
+    overflow: hidden;
 
 }
 
@@ -111,9 +118,100 @@ h6{
 
 /* Otras clases */
 
+.titulo {
+    text-align: center;
+    padding: 10%;
+    opacity: .4;
 
+}
+.titulo h1{
+    font-size: 68px;
+}
+.bot2{
+    text-align: center;
+}
+.sub{
+    padding-bottom: 2%;
+    font-weight: 600;
+    font-size: 45px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    
+    opacity: .4;
+}
+.sub:hover{
+    background-color:#000000;
+}
+#lvl{
+    text-decoration: line-through;
+}
 
 /**************************/
+span{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 19ch;
+    animation: typing 4s steps(20),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    align-items: center;
+}
+
+.butt{
+    text-align: center;
+}
+.butt button {
+    color: rgb(173, 18, 18);
+}
+
+#miedo{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 100%;
+    color: rgb(173, 18, 18);;
+
+    animation: typing 5s steps(1000),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+#huir{
+    font-weight: 600;
+    font-size: 35vh;
+    background-color: transparent;
+}
+/**************************/
+.examen {
+    text-align: center;
+    padding: 10%;
+    opacity: .4;
+
+}
+.examen h1{
+    font-size: 68px;
+}
+
+/**************************/
+/* animaciones */
+@keyframes moveBand {
+    0% {background-position-y: 100vh;}
+    100% {background-position-y: 30vh;}
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
 
 @media only screen and (max-width: 600px) {
 }
