@@ -114,6 +114,7 @@ h6{
     justify-content: center;
 }
 
+
 /**************************/
 
 /* Otras clases */
@@ -150,6 +151,14 @@ h6{
     text-decoration: line-through;
 }
 
+/* para las imagenes examenes */
+
+
+
+
+
+/* para imagenes amenazas */
+
 /**************************/
 span{
     display: block;
@@ -160,6 +169,61 @@ span{
     blink .5s infinite step-end alternate;
     overflow: hidden;
     align-items: center;
+}
+
+/* titulos de explicaciones */
+#tit{
+    opacity: .4;
+}
+
+/* explicacion 1*/
+#explica1{
+    opacity: .4;
+}
+
+#explica1 p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#explica1 li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/* aviso */
+.aviso {
+    text-align: center;
+    padding: 2%;
+    opacity: .4;
+}
+#explica2{
+    opacity: .4;
+}
+
+#explica2 p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#explica2 li{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* #cuidado{
+    background-image: url(../img/scream.jpg);
+} */
+
+/* explicacion 2 */
+
+
+
+
+
+/* pregunta */
+#pregunta{
+    padding-left: 16%;
 }
 
 .butt{
@@ -195,6 +259,36 @@ span{
 }
 .examen h1{
     font-size: 68px;
+}
+
+.amenaza{
+    text-align: center;
+    opacity: .4;
+}
+
+/* amenazas */
+#amen1{
+    opacity: .6;
+    height: 62vh;
+}
+
+#amen2{
+    height: 62vh;
+    opacity: .8;
+}
+
+#amen3{
+    height: 62vh;
+    opacity: .5;
+}
+
+#amen4{
+    height: 62vh;
+}
+
+#amen5{
+    height: 62vh;
+    opacity: .7;
 }
 
 /**************************/
