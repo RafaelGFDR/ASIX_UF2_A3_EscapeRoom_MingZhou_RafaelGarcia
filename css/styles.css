@@ -118,19 +118,24 @@ h6{
 
 /* Otras clases */
 
-.titulo {
+/* Index.php */
+
+.tituloIndex {
     text-align: center;
     padding: 10%;
     opacity: .4;
 
 }
-.titulo h1{
+
+.tituloIndex h1{
     font-size: 68px;
 }
-.bot2{
+
+.grupoBot{
     text-align: center;
 }
-.sub{
+
+.botonIni{
     padding-bottom: 2%;
     font-weight: 600;
     font-size: 45px;
@@ -143,25 +148,96 @@ h6{
     
     opacity: .4;
 }
-.sub:hover{
+
+.botonIni:hover{
     background-color:#000000;
 }
-#lvl{
+
+#tachado{
     text-decoration: line-through;
 }
 
 /**************************/
-span{
-    display: block;
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 19ch;
-    animation: typing 4s steps(20),
-    blink .5s infinite step-end alternate;
-    overflow: hidden;
-    align-items: center;
+
+/* explicaciones.php */
+
+#explica1{
+    opacity: .4;
 }
 
+#explica1 p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#explica1 li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.botexpli1{
+    text-align: end;
+}
+
+.botonexp1{
+    padding-bottom: 2%;
+    font-weight: 600;
+    font-size: 45px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    
+    opacity: .4;
+}
+
+.botonexp1:hover{
+    background-color:#000000;
+}
+/**************************/
+
+/* avisos.php */
+.aviso {
+    text-align: center;
+    padding: 2%;
+    opacity: .4;
+}
+.explica2{
+    opacity: .4;
+}
+
+.explica2 p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.explica2 li{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* examenes.php */
+.examen {
+    text-align: center;
+    padding: 6%;
+    opacity: .4;
+
+}
+.examen h1{
+    font-size: 68px;
+}
+.imaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imaje img{
+    width: 60vh;
+    height: 50vh;
+    opacity: .6;
+}
+/* final.php */
 .butt{
     text-align: center;
 }
@@ -187,16 +263,121 @@ span{
     background-color: transparent;
 }
 /**************************/
-.examen {
+/* Examenes */
+.botonexam{
+    background-color: transparent;
+}
+/**************************/
+/* slider */
+.wrapper{
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  }
+  .wrapper .section{
+    height: 100px;
+    width: 600px;
     text-align: center;
-    padding: 10%;
-    opacity: .4;
-
+    overflow: hidden;
+  }
+  .wrapper .section .emojis{
+    height: 500%;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .section li{
+    height: 20%;
+    width: 100%;
+    list-style: none;
+    transition: all 0.3s ease;
+    align-items:center ;
+    font-size: 50px;
+  }
+  .section li img{
+    height: 100%;
+    width: 100%;
+  }
+  .wrapper .slider{
+    margin-top: 40px;
+    height: 12px;
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+  }
+  .slider input{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: none;
+    outline: none;
+    top: 0;
+    z-index: 2;
+    -webkit-appearance: none;
+  }
+  .slider input::-webkit-slider-thumb{
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+  .slider .progress-bar{
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+    position: relative;
+    background-color: white;
+  }
+  
+  .slider .thumb{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: white;
+  }
+  
+  .slider .thumb span{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    background: white;
+  }
+/**************************/
+  /* amenazas */
+#amen1{
+    opacity: .6;
+    height: 62vh;
 }
-.examen h1{
-    font-size: 68px;
+
+#amen2{
+    height: 62vh;
+    opacity: .8;
 }
 
+#amen3{
+    height: 62vh;
+    opacity: .5;
+}
+
+#amen4{
+    height: 62vh;
+}
+
+#amen5{
+    height: 62vh;
+    opacity: .7;
+}
 /**************************/
 /* animaciones */
 @keyframes moveBand {
