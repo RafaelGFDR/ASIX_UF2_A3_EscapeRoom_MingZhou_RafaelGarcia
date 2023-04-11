@@ -21,6 +21,7 @@
             <h1>Haz una decision</h1>
         </div>
     </div>
+<<<<<<< HEAD
     <form action="proceso3.php" method="post">
         <div class="row">
             <div class="column-2 imaje">
@@ -31,5 +32,15 @@
             </div>
         </div>
     </form>
+=======
+    <div class="row flex">
+        <div class="column-2 imaje">
+            <img id="A1" src="../img/A1.jpg" alt="">
+        </div>
+        <div class="column-2 imaje">
+        <img id="B1" src="../img/B1.jpg" alt="">
+        </div>
+    </div>
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 </body>
 </html>

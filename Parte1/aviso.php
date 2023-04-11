@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
    session_start(); 
     if(!isset($_SESSION['aviso'])){
@@ -8,6 +9,8 @@
     // }
 
 ?>
+=======
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +23,11 @@
 </head>
 <body id="cuidado">
     <h1 class="aviso">Tenga cuidado, que se equivocó</h1>
+<<<<<<< HEAD
     <div class="explica2">
+=======
+    <div id="explica2">
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     <p>Aquí le recordamos las instrucciones</p>
     <p>Para que sepa cuál es la no humana le damos las siguientes instrucciones:</p>
     <ul>
@@ -30,10 +37,13 @@
         <li>Les puede faltar alguna parte del cuerpo</li>
     </ul>
     </div>
+<<<<<<< HEAD
     <form action="procesoAviso.php">
     <div class="botexpli1">
         <button class="botonexp1" type="submit" name="Aviso">Siguiente</button>
     </div>
     </form>
+=======
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 </body>
 </html>

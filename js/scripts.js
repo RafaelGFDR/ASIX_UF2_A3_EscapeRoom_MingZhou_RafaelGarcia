@@ -37,4 +37,9 @@ if(sliderValue >= 60){
     document.addEventListener("DOMContentLoaded", function(){
         var audio = document.getElementById("myAudio1");
         audio.play();
+<<<<<<< HEAD
     });
+=======
+    });
+
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e

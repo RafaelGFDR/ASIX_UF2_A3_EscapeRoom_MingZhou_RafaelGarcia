@@ -14,9 +14,9 @@
     <title>Test de anormalidad</title>
     <link rel="shortcut icon" href="../img/icono.svg" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles.css">
-    <script src="https://kit.fontawesome.com/7822954312.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +29,9 @@
 </head>
 <body>
     <h1 id="explica1">Continuemos</h1>
+=======
+    <h1 id="tit">Continuemos</h1>
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     <div id="explica1">
     <p>Usted ha completado exitosamente la primera evaluación</p>
     <p>Por ende pasaremos a la segunda</p>
@@ -38,10 +41,13 @@
     <p>Debe indicar su nivel de amenaza para que podamos dividir nuestro personal correctamente</p>
     <p>Y así tenerlos bajo vigilancia</p>
     </div>
+<<<<<<< HEAD
     <form action="proceso2.php" method="post">
     <div class="botexpli1">
             <button class="botonexp1" type="submit" name="empezar">Empezar</button>
         </div>
     </form>
+=======
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 </body>
 </html>

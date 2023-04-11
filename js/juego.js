@@ -798,4 +798,9 @@ setInterval(() => {
 		countdownEl.innerHTML = `${time}`;
 		time--;	
 	}
+<<<<<<< HEAD
 }, 1000);
+=======
+}, 1000);
+
+>>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
