@@ -52,7 +52,6 @@
       <form action="proceso3.php" method="post">
     <button class="botonexp1" type="submit" name="envio">Enviar</button>
       </form>
-    <button class="sub">Enviar</button>
     </div>
   </div>
   <script src="../js/scripts.js"></script>
