@@ -17,12 +17,9 @@
     <script src="https://kit.fontawesome.com/7822954312.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<<<<<<< HEAD
 <audio id="myAudio1" preload="auto" loop>
     <source src="" type="audio/mpeg">
 </audio>
-=======
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     <div>
         <div>
             <h1 class="amenaza">Indique su nivel de amenaza</h1>
@@ -32,11 +29,7 @@
         <div class="column-1 flex">
             <img id="amen2" src="../img/amenaza2.jpg" alt="">
         </div>
-<<<<<<< HEAD
     <div class="column-1 flex">
-=======
-        <div class="column-1 flex">
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
         <div class="wrapper">
     <div class="section">
       <ul class="emojis">
@@ -56,13 +49,9 @@
       <br>
       <br>
       <br>
-<<<<<<< HEAD
       <form action="proceso4.php" method="post">
     <button class="botonexp1" type="submit" name="envio">Enviar</button>
       </form>
-=======
-    <button class="sub">Enviar</button>
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     </div>
   </div>
   <script src="../js/scripts.js"></script>

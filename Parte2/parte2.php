@@ -13,11 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Test de anormalidad</title>
-<<<<<<< HEAD
     <link rel="shortcut icon" href="../img/icono.svg" type="image/x-icon">
-=======
-    <link rel="shortcut icon" href="./img/icono.svg" type="image/x-icon">
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
    session_start(); 
     if(!isset($_SESSION['quest2'])){
@@ -6,8 +5,6 @@
 }
 
 ?>
-=======
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +18,6 @@
 <body>
     <h1 class="examen">¿Estás seguro que estás solo?</h1>
     <div class="row flex">
-<<<<<<< HEAD
     <form action="proceso8.php" method="post">
         <div class="column-2" id="pregunta">
             <button class="botonexp1" type="submit" name="envio" id="tachado" disabled>Sí</button>
@@ -32,14 +28,4 @@
     </div>
 </body>
 </body>
-=======
-        <div class="column-2" id="pregunta">
-            <button class="sub">Sí</button>
-        </div>
-        <div class="column-2" id="pregunta">
-            <button class="sub">No</button>
-        </div>
-    </div>
-</body>
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
 </html>

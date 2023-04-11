@@ -49,13 +49,10 @@
       <br>
       <br>
       <br>
-<<<<<<< HEAD
       <form action="proceso3.php" method="post">
     <button class="botonexp1" type="submit" name="envio">Enviar</button>
       </form>
-=======
     <button class="sub">Enviar</button>
->>>>>>> 10d3da58d9813a63b4d0ec19d7f0a4703bd0c93e
     </div>
   </div>
   <script src="../js/scripts.js"></script>
